@@ -1,0 +1,36 @@
+{
+  "name": "@example/minimal",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "serve": "astro preview",
+    "test": "astro build"
+  },
+  "devDependencies": {
+    "astro": "^0.22.1"
+  },
+  "prettier": {
+    "endOfLine": "lf",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "useTabs": true,
+    "overrides": [
+      {
+        "files": [
+          ".stackblitzrc",
+          "*.json",
+          "*.md",
+          "*.yml"
+        ],
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  }
+}
