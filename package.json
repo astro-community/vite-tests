@@ -1,16 +1,14 @@
 {
-  "name": "@example/minimal",
+  "name": "@example/test",
   "type": "module",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "astro dev",
-    "build": "astro build",
-    "serve": "astro preview",
-    "test": "astro build"
+    "test": "vite build"
   },
   "devDependencies": {
-    "astro": "^0.22.9"
+    "chokidar": "^3.5.3",
+    "vite": "^2.8.6"
   },
   "prettier": {
     "endOfLine": "lf",
